@@ -2,8 +2,6 @@
 
 ## Introduction
 
-MJLab-Lite is a minimal Motion Imitation framework built on [MuJoCo-Warp](https://github.com/google-deepmind/mujoco_warp) for GPU-accelerated massively parallel simulation training.
-
 This project is a streamlined version of [MJLab](https://github.com/mujocolab/mjlab), with W&B experiment tracking, ONNX export, multi-GPU distributed training, and other advanced features removed. **It focuses solely on the core Motion Imitation functionality**, making it ideal for learning and rapid experimentation.
 
 ## Features
