@@ -19,6 +19,8 @@ This project is a streamlined version of [MJLab](https://github.com/mujocolab/mj
 ### Using uv (Recommended)
 
 ```bash
+conda create -n mjlab-lite python==3.13
+conda activate mjlab-lite
 git clone https://github.com/your-username/mjlab-lite.git
 cd mjlab-lite
 uv sync
@@ -27,6 +29,8 @@ uv sync
 ### Using pip
 
 ```bash
+conda create -n mjlab-lite python==3.13
+conda activate mjlab-lite
 git clone https://github.com/your-username/mjlab-lite.git
 cd mjlab-lite
 pip install -e .
