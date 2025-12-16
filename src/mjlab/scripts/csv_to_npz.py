@@ -304,15 +304,15 @@ def run_sim(
         ):
           log[k] = np.stack(log[k], axis=0)
 
-        print("Saving to /tmp/motion.npz...")
-        np.savez("/tmp/motion.npz", **log)  # type: ignore[arg-type]
+        print(f'Saving to ./{output_name}.npz...')
+        np.savez(f'./{output_name}.npz', **log)  # type: ignore[arg-type]
 
         if render:
           from moviepy import ImageSequenceClip
 
           print("Creating video...")
           clip = ImageSequenceClip(frames, fps=output_fps)
-          clip.write_videofile("./motion.mp4")
+          clip.write_videofile(f'./{output_name}.mp4')
 
 
 def main(
