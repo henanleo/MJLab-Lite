@@ -5,7 +5,7 @@
 This project is a streamlined version of [MJLab](https://github.com/mujocolab/mjlab), with W&B experiment tracking, ONNX export, multi-GPU distributed training, and other advanced features removed. **It focuses solely on the core Motion Imitation functionality**, making it ideal for learning and rapid experimentation.
 
 ## Features
-
+-  **Minimal Dependencies** - Removed unnecessary dependencies for easier deployment
 -  **Core Focus** - ~60 lines training script, ~70 lines simulation script
 
 ## Installation
